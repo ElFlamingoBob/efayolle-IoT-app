@@ -16,4 +16,4 @@ spec:
           service:
             name: app-ef
             port:
-              number: 880
+              number: 80
