@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: app_ef
+  name: app-ef
   namespace: dev
 spec:
   selector:
-    app: app_ef
+    app: app-ef
   ports:
     - port: 80
       targetPort: 80

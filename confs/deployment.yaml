@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app_ef
+  name: app-ef
   namespace: dev
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: app_ef
+      app: app-ef
   template:
     metadata:
       labels:
-        app: app_ef
+        app: app-ef
     spec:
       containers:
-        - name: app_ef
+        - name: app-ef
           image: wil42/playground:v1
           ports:
             - containerPort: 80
